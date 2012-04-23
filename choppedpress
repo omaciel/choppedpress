@@ -61,12 +61,12 @@ def chopit(xmlfile, outfile=OUTFILE, xmltag=WP_TAG, chunksize=CHUNKSIZE):
 
 def main():
 
-    description = "ChoppedPress lets you split the WordPress XML export file " \
+    description = "ChoppedPress lets you split a WordPress XML export file " \
     "into smaller files that can be used to import your posts, comments, tags" \
     " and categories into a new WordPress installation."
 
     usage = "Usage:  %prog <INFILE> [[<OUTFILE>] [<TAG>] [<NUMBER>]]"
-    epilog = "Constructive comments and feedback can be sent to ogmaciel at gnome dot org."
+    epilog = "Constructive comments and feedback can be sent to omaciel at ogmaciel dot com."
     version = "%prog version 0.1"
 
     parser = OptionParser(usage=usage, description=description, epilog=epilog, version=version)

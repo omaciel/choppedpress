@@ -13,7 +13,7 @@ This will generate **two** (this is the default) XML files named **out01.xml** a
 
 
 ```
-Usage:  choppedpress.py <INFILE> [[<OUTFILE>] [<TAG>] [<NUMBER>]]
+Usage:  choppedpress <INFILE> [[<OUTFILE>] [<TAG>] [<NUMBER>]]
 
 ChoppedPress lets you split the WordPress XML export file into smaller files
 that can be used to import your posts, comments, tags and categories into a

@@ -19,4 +19,5 @@ setup(
         url="",
         license = license,
         packages = find_packages(),
+        scripts = ['choppedpress',]
         )
