@@ -16,7 +16,7 @@ setup(
         long_description = readme,
         author = "Og Maciel",
         author_email = "omaciel@ogmaciel.com",
-        url="",
+        url="http://omaciel.github.com/choppedpress/",
         license = license,
         packages = find_packages(),
         scripts = ['choppedpress',]
