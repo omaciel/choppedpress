@@ -1,17 +1,21 @@
 ChoppedPress
 ============
 
+Introduction
+------------
+
 **ChoppedPress** lets you split the **WordPress** XML export file into smaller files that can be used to import your posts, comments, tags and categories into a new WordPress installation.
+
+Examples
+--------
 
 Assuming you have already gone throught the process of exporting all of your posts, comments and tags into a file named _my-blog-YEAR-MONTH-DATE.xml_, you could then split it into several smaller XML files using the following command:
 
-::
     choppedpress my-exported-wordpress.xml
 
 This will generate **two** (this is the default) XML files named **out01.xml** and **out02.xml**. The name of the generated files and/or how many files to generate can be specified by using the appropriate flags as show by *choppedpress --help*.
 
 
-::
     Usage:  choppedpress <INFILE> [[<OUTFILE>] [<TAG>] [<NUMBER>]]
 
     ChoppedPress lets you split the WordPress XML export file into smaller files
@@ -29,3 +33,23 @@ This will generate **two** (this is the default) XML files named **out01.xml** a
                             /rss/channel/item]
       -n NUMBER, --number=NUMBER
                             How many new files should be generated. [default: 2]
+
+Installation
+------------
+
+`ChoppedPress is available at PyPI <http://pypi.python.org/pypi/choppedpress>`_, so
+installing it is as simple as executing::
+
+    pip install templater
+
+Or you can download the latest version and install it using ``setup.py``::
+
+    git clone git@github.com:omaciel/choppedpress.git
+    cd choppedpress
+    python setup.py build install
+
+Author
+------
+
+This software is developed by
+`Og Maciel <http://ogmaciel.tumblr.com>`_.
