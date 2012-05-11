@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
         name = "choppedpress",
-        version = "0.0.1",
+        version = "0.0.1.1",
         description = "Split WordPress XML export files into smaller files to import into a new WordPress installations.",
         long_description = open("README.rst", 'r').read(),
         author = "Og Maciel",
