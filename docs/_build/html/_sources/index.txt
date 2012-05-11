@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ChoppedPress's documentation!
-========================================
+ChoppedPress
+============
 
 Introduction
 ------------
@@ -53,6 +53,11 @@ Or you can download the latest version and install it using ``setup.py``::
     cd choppedpress
     python setup.py build install
 
+Author
+------
+
+This software is developed by
+`Og Maciel <http://ogmaciel.tumblr.com>`_.
 
 Indices and tables
 ==================
