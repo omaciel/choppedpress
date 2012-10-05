@@ -40,7 +40,7 @@ Installation
 `ChoppedPress is available at PyPI <http://pypi.python.org/pypi/choppedpress>`_, so
 installing it is as simple as executing::
 
-    pip install templater
+    pip install choppedpress
 
 Or you can download the latest version and install it using ``setup.py``::
 
